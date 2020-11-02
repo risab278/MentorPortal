@@ -1,0 +1,101 @@
+URL
+http://localhost:8989/mentorportal/trainingsService/training/getall
+http://localhost:8989/mentorportal/trainingsService/training/create
+http://localhost:8989/mentorportal/trainingsService/training/delete/?
+
+http://localhost:8989/mentorportal/trainingsService/training/finalize/3
+http://localhost:8989/mentorportal/trainingsService/training/approved/3
+
+http://localhost:8698/training/propose/9/6/3
+http://localhost:8989/mentorportal/trainingsService/training/propose/1/2/4
+http://localhost:8989/mentorportal/trainingsService/training/create
+
+
+
+
+propose
+userid=1,mentorid=2,skillid=4
+userid=4,mentorid=5,skillid=2
+
+
+ {
+        "id": 1,
+        "userId": 2,
+        "mentorId": 3,
+        "skillId": 4,
+        "status": "Approved",
+        "progress": 0,
+        "rating": 0,
+        "startTime": null,
+        "startDate": null,
+        "endTime": null,
+        "endDate": null,
+        "amountReceived": 0.0
+    },
+    {
+        "id": 2,
+        "userId": 3,
+        "mentorId": 4,
+        "skillId": 3,
+        "status": "underprogress",
+        "progress": 0,
+        "rating": 0,
+        "startTime": "09:30:00",
+        "startDate": "2020-10-30",
+        "endTime": "00:27:19",
+        "endDate": "2020-11-29",
+        "amountReceived": 3000.0
+    },
+    {
+        "id": 3,
+        "userId": 6,
+        "mentorId": 1,
+        "skillId": 3,
+        "status": "underprogress",
+        "progress": 0,
+        "rating": 0,
+        "startTime": "11:00:00",
+        "startDate": "2020-04-04",
+        "endTime": "04:00:00",
+        "endDate": "2020-05-04",
+        "amountReceived": 3000.0
+    },
+    {
+        "id": 4,
+        "userId": 3,
+        "mentorId": 1,
+        "skillId": 1,
+        "status": "completed",
+        "progress": 100,
+        "rating": 4,
+        "startTime": "11:00:00",
+        "startDate": "2019-11-10",
+        "endTime": "04:00:00",
+        "endDate": "2019-12-10",
+        "amountReceived": 10000.0
+    }
+
+
+{
+        "id": 5,
+        "userId": 5,
+        "mentorId": 6,
+        "skillId": 3,
+        "status": "Proposed",
+        "progress": 0,
+        "rating": 0,
+        "startTime": null,
+        "startDate": null,
+        "endTime": null,
+        "endDate": null,
+        "amountReceived": 0.0
+    }
+
+    mentorid   skillid
+
+    1          1 3 4
+    2          1 4
+    3          1 2 3
+    4          3 2
+    5          4 2
+    6          3 1

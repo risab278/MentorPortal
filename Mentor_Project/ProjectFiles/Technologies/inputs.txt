@@ -1,0 +1,32 @@
+url
+
+
+
+ {
+        "id": 1,
+        "name": "java",
+        "toc": "aaaaa",
+        "duration": "5hr",
+        "pre_requisite": "coding"
+    },
+    {
+        "id": 2,
+        "name": "Spring",
+        "toc": "bbbbb",
+        "duration": "10hr",
+        "pre_requisite": "coding1"
+    },
+    {
+        "id": 3,
+        "name": "golang",
+        "toc": "ccccc",
+        "duration": "8hr",
+        "pre_requisite": "coding2"
+    },
+    {
+        "id": 4,
+        "name": "cpp",
+        "toc": "ddddd",
+        "duration": "6hr",
+        "pre_requisite": "coding3"
+    }

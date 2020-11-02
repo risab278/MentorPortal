@@ -1,0 +1,64 @@
+URL
+http://localhost:8989/mentorportal/userService/users/login
+{
+
+
+	"username":"rsb123",
+	"password":"rsb123"
+
+}
+
+http://localhost:8989/mentorportal/userService/token/generate-token
+
+{
+
+
+	"username":"rsb123",
+	"password":"rsb123"
+
+}
+
+http://localhost:9289/users/2
+
+
+  {
+    "id":27,
+    "firstName": "first",
+    "lastName": "last",
+    "username": "alex123",
+    "contact": 123456,
+    "regCode": 33,
+    "role": "Mentor",
+    "password":"alex123",
+    "regdatetime":"1-11-2020"
+    }
+
+
+    {
+
+
+
+        "firstName": "aman",
+        "lastName": "kumar",
+        "username": "rsb123",
+        "contact": 987654,
+        "regCode": 278,
+        "role": "Mentor",
+        "password":"rsb123",
+        "regdatetime":"10-11-2020"
+
+    }
+
+{
+
+
+	"firstName": "first1",
+    "lastName": "last1",
+    "username": "jon123",
+    "contact": 123456,
+    "regCode": 33,
+    "role": "Mentor",
+    "password":"jon123",
+    "regdatetime":"1-11-2020"
+
+}

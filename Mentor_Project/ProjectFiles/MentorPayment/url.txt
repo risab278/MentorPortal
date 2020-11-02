@@ -1,0 +1,3 @@
+http://localhost:9896/getallpayments
+http://localhost:9896/updatepayment/2
+http://localhost:9896/getpayment/2
